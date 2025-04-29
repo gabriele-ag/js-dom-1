@@ -11,6 +11,7 @@ elementBtn.addEventListener("click", function(){
         elementBtn.innerText = "Spenta"
         elementBtn.style.backgroundColor = ""
         imgElement.src = "./img/white_lamp 1.png"
+        lampadaAccesa = false
         console.log("Spenta")
     } else {
         elementBtn.innerText = "Accesa!"
